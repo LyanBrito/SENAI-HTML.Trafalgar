@@ -1,4 +1,20 @@
 a:hover{
-    color: black;
+    color: var(--black-100);
 
 }
+a:active{
+    font-size: 17px;
+
+}
+.text-wrapper>button:hover{
+    background-color: var(--blue-100);
+
+
+}
+.text-wrapper>button:active{
+    border: 2px solid var(--blue-200);
+    background-color: unset;
+    color: var(--blue-200);
+
+}
+

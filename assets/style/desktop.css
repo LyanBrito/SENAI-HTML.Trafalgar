@@ -11,6 +11,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 150px;
 
 
 }
@@ -24,6 +25,8 @@ header{
 }
 .logo-wrapper{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 12px;
 
 }
@@ -35,12 +38,53 @@ nav{
 }
 a{  
     font-size: 18px;
-    color: #67646d;
+    color: var(--gray-100);
     text-decoration: none;
 
 
 }
+h1{
+    font-size: 48px;
+
+}
+p{
+    font-size: 21px;
+    color: var(--gray-100);
+    line-height: 32px;
+
+}
 h6{
     font-size: 24px;
+    color: var(--black-100);
     
+}
+main{
+    display: flex;
+    gap: 109px;
+}
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 35px;
+
+}
+.text-wrapper>button{
+    display: flex;
+    border: none;
+    color: var(--white-100);
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--blue-200);
+    border-radius: 55px;
+    padding: 18px 42px;
+    cursor: pointer;
+}
+.element{
+    position: fixed;
+    left: 1px;
+    top: 160px;
+
 }
